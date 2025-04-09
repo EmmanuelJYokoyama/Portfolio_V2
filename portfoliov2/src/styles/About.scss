@@ -1,0 +1,74 @@
+.about {
+    padding: 4rem 2rem;
+    background: #0D1B2A;
+    color: #849db8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+  
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+    .image{
+        img{
+            width: 50%;
+            height: 50%;
+        }
+        justify-content: center;
+        display: flex;
+        
+    }
+    .sobreText{
+        font-size: 20px;
+        color: #fff;
+        padding: 2em;
+    }
+    .education {
+      margin-top: 2rem;
+  
+      h3 {
+        font-size: 2rem;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #fff;
+      }
+  
+      .courses {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+  
+        .course-box {
+          background: #183049;
+          padding: 1.5rem;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+          text-align: center;
+  
+          h4 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #FFFFFF;
+          }
+  
+          p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            line-height: 1.6;
+          }
+        }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #0D1B2A; /* Cor de fundo violeta */
+    padding: 1rem 2rem;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logoimg img {
+      max-width: 100px;
+      height: auto;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .navbar-links {
+      display: flex;
+      gap: 1rem;
+  
+      a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #ff8906; /* Destaque laranja futurista */
+        }
+      }
+    }
+  
+    .mobile-menu {
+      margin-top: 1rem;
+  
+      a {
+        display: block;
+        padding: 0.5rem 0;
+        text-decoration: none;
+        color: #fff;
+  
+        &:hover {
+          color: #ff8906;
+        }
+      }
+    }
+  }
+  
