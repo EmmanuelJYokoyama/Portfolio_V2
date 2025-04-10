@@ -20,12 +20,18 @@ function About() {
         <h3>Formação</h3>
         <div className="courses">
           <div className="course-box">
-            <h4>Técnico em Informática</h4>
+            <div className="imagemFormacao">
+              <img src="https://lh3.googleusercontent.com/p/AF1QipOjHSL7AN-mSxAjab2Jh1dBYuA72uAEa-5TB3BW=s680-w680-h510" alt="univap" />
+            </div>
+            <h4>Ensino médio Concomitante ao Técnico em Informática</h4>
             <p>Colégio Técnico Univap</p>
             <p>São José dos Campos, Brasil</p>
           </div>
 
           <div className="course-box">
+            <div className="imagemFormacao">
+              <img src="https://sjc.fatec.sp.gov.br/static/media/predioThumb.e0510de5.png" alt="fatec" />
+            </div>
             <h4>Graduando em Desenvolvimento de Software Multiplataformas</h4>
             <p>FATEC São José dos Campos</p>
             <p>São José dos Campos, Brasil</p>

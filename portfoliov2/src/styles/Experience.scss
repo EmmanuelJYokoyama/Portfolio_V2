@@ -4,6 +4,7 @@
   color: #A9BCD0;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 20px;
   border-radius: 10px;
 
   h2 {
@@ -26,12 +27,11 @@
       text-align: center;
 
       .company-logo {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: auto;
         margin: auto;
-        border-radius: 50%;
+        border-radius: 0%;
         object-fit: cover;
-        margin-bottom: 1rem;
       }
 
       h3 {

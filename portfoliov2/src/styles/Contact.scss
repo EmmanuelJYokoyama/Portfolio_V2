@@ -3,25 +3,39 @@
     background: #1D3557;
     color: #A9BCD0;
     text-align: center;
+    
   
     h2 {
       font-size: 2.5rem;
       margin-bottom: 2rem;
       color: #FFFFFF;
     }
+ 
   
-    p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
+    .icons {
+      display: flex; /* Garante que os ícones fiquem lado a lado */
+      justify-content: center; /* Centraliza horizontalmente */
+      gap: 2rem; /* Espaçamento entre os ícones */
   
-      a {
-        color: #3DF2A3;
-        text-decoration: none;
+      p {
+        margin: 0;
+        
+        a {
+          display: flex;
+          align-items: center;
   
-        &:hover {
-          text-decoration: underline;
+          img {
+            width: 48px;
+            height: 48px;
+            transition: transform 0.3s ease;
+  
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
         }
       }
+
     }
   }
   

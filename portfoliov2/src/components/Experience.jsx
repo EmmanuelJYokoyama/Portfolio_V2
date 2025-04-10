@@ -6,21 +6,23 @@ function Experience() {
     {
       title: 'Estagiário de Banco de Dados',
       company: 'ADVTEC Soluções ERP',
-      image: '../images/advtec.jpg', // Substitua com o caminho real
+      image: 'https://static.wixstatic.com/media/ac0cee_ee3213ff1b1d4f99a6fb284d0adbc384~mv2.png/v1/fit/w_2500,h_1330,al_c/ac0cee_ee3213ff1b1d4f99a6fb284d0adbc384~mv2.png', // Substitua com o caminho real
       period: 'Mai/23 - Set/23',
       description: [
-        'Auxiliei o DBA Sênior na resolução de problemas no banco de dados com soluções SQL.',
-        'Prestei suporte remoto ao cliente usando AnyDesk.',
-        'Relatei bugs e inconsistências para melhorias futuras.',
+        'Auxiliei o DBA Sênior na resolução de problemas no banco de dados com soluções SQL',
+        'Prestava suporte ao cliente via acesso remoto utilizando o AnyDesk',
+        'Realizava relatórios do sistema, relatando bugs e inconsistências para futuras melhorias',
+        'Alterava e realizava melhorias determinadas pelo cliente ou por colegas desenvolvedores',
       ],
     },
     {
-      title: 'Estagiário de Desenvolvimento',
+      title: 'Estagiário de Backend',
       company: 'FlipFlopLab',
-      image: '../images/flipfloplab.jpg', // Substitua com o caminho real
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWaoQ0dBhGhcR036jv_SsS57HKNBjwUxTInQ&s', // Substitua com o caminho real
       period: 'Mai/24 - Dez/24',
       description: [
-        'Corrigi bugs e desenvolvi melhorias em software interno.',
+        'Corrigi bugs e desenvolvi melhorias em software interno com Ruby on Rails.',
+        'Utilização de N8N para a automação de processos dos clientes',
         'Gerenciei Sprints e Issues no Jira.',
         'Forneci suporte técnico aos desenvolvedores e clientes.',
       ],
@@ -28,11 +30,12 @@ function Experience() {
     {
       title: 'Digital & Analytics Intern',
       company: 'Embraer',
-      image: '../images/embraer.jpg', // Substitua com o caminho real
+      image: 'https://www.infomoney.com.br/wp-content/uploads/2019/11/embraer-logo-6-1.png?fit=800%2C460&quality=70&strip=all', // Substitua com o caminho real
       period: 'Fev/25 - Atual',
       description: [
-        'Desenvolvo soluções Spring para aplicações internas.',
-        'Atuo na área de Digital e Supply Chain.',
+        'Desenvolvimento de soluções com Spring para aplicações internas.',
+        'Atuação na área de Digital e Supply Chain.',
+        'Experiencia com Pentaho para automação de processos internos'
       ],
     },
   ];

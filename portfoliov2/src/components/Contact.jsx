@@ -5,9 +5,12 @@ function Contact() {
   return (
     <footer className="contact">
       <h2>Contatos</h2>
-      <p>Email: <a href="mailto:emmanuelnoronha3@gmail.com">emmanuelnoronha3@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/emmanuelyokoyama" target="_blank" rel="noreferrer">linkedin.com/in/emmanuelyokoyama</a></p>
-      <p>GitHub: <a href="https://github.com/EmmanuelJYokoyama" target="_blank" rel="noreferrer">github.com/EmmanuelJYokoyama</a></p>
+      <div className='icons'>
+        <p><a href="mailto:emmanuelnoronha3@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a></p>
+        <p><a href="https://www.linkedin.com/in/emmanuelyokoyama"><img src="https://skillicons.dev/icons?i=linkedin" /></a></p>
+        <p><a href="https://github.com/EmmanuelJYokoyama"><img src="https://skillicons.dev/icons?i=github" /></a>  </p>
+      </div>
+      
     </footer>
   );
 }

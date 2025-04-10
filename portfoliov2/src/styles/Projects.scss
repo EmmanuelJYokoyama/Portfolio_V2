@@ -1,10 +1,23 @@
 .projects {
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, #0D1B2A, #3D405B);
+    background: #0D1B2A;
     color: #A9BCD0;
     border-radius: 10px;
     max-width: 1200px;
     margin: auto;
+
+    .view-all {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #849ff7;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   
     h2 {
       font-size: 2.5rem;
@@ -35,9 +48,11 @@
           margin-bottom: 1rem;
           line-height: 1.6;
         }
+
+        
   
         a {
-          color: #FF8906;
+          color: #6f6fdb;
           text-decoration: none;
   
           &:hover {

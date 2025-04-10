@@ -12,18 +12,21 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/" element={(
+          <div id="root">
+            <Hero />
+            <About />
+            <Experience />
+            {/* <Technologies/> */}
+            <Projects limit={true}/>
+            <Contact />
+          </div>
+        )} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-        <div id="root">
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-      </div>
     </Router>
   );
 }
