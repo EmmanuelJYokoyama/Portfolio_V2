@@ -31,6 +31,7 @@ function Navbar() {
           <Link to="/projects" className="text-white">Projetos</Link>
           <Link to="/about" className="text-white">Sobre Mim</Link>
           <Link to="/contact" className="text-white">Contato</Link>
+          <Link to="/tecnologies" className="text-white">Tecnologias</Link>
         </div>
 
         {/* Mobile Menu */}
@@ -40,6 +41,7 @@ function Navbar() {
             <Link to="/projects" className="block text-white">Projetos</Link>
             <Link to="/about" className="block text-white">Sobre Mim</Link>
             <Link to="/contact" className="block text-white">Contato</Link>
+            <Link to="/tecnologies" className="text-white">Tecnologias</Link>
           </div>
         )}
       </div>

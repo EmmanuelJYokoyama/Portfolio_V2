@@ -21,7 +21,8 @@ function About() {
         <div className="courses">
           <div className="course-box">
             <div className="imagemFormacao">
-              <img src="https://lh3.googleusercontent.com/p/AF1QipOjHSL7AN-mSxAjab2Jh1dBYuA72uAEa-5TB3BW=s680-w680-h510" alt="univap" />
+              {/* <img src="https://www.univap.br/source/files/c/279/CTI-4-min-842065_5184-3456-0-0.jpg" alt="univap" /> */}
+              <img src="https://www.univap.br/source/files/c/279/CTI-4-min-842065_5184-3456-0-0.jpg"></img>
             </div>
             <h4>Ensino médio Concomitante ao Técnico em Informática</h4>
             <p>Colégio Técnico Univap</p>
