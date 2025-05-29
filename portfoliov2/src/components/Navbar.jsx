@@ -27,7 +27,6 @@ function Navbar() {
 
         {/* Desktop Links */}
         <div className={`navbar-links md:flex space-x-4 ${menuOpen ? 'block' : 'hidden'}`}>
-          <Link to="/resume" className="text-white">Currículo</Link>
           <Link to="/projects" className="text-white">Projetos</Link>
           <Link to="/about" className="text-white">Sobre Mim</Link>
           <Link to="/contact" className="text-white">Contato</Link>

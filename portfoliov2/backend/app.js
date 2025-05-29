@@ -3,8 +3,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+app.get('/resume', (req, res) => {
+  res.redirect("https://github.com/EmmanuelJYokoyama/Curriculo/blob/main/Currículo%20EmmanuelYokoyama.pdf")
 })
 
 app.listen(port, () => {
